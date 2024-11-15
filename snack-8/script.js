@@ -21,3 +21,9 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+let classe = "";
+
+students.forEach((curItem) =>(curItem.name === "Marco Lanci") ?  classe=curItem.class : "")
+
+console.log(classe);
